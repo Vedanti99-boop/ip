@@ -1,0 +1,31 @@
+<nav class="fixed-top">
+  <div [ngSwitch]="menuType" class="bg-lightd text-white nav-size">
+    <ul class="nav justify-content-center" *ngSwitchCase="'default'">
+      <li class="nav-item">
+        <a class="nav-link text-white" routerLink="signup">Sign Up/Login</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center" *ngSwitchCase="'home'">
+      <li class="nav-item">
+        <a class="nav-link text-white"
+          >Welcome {{ userName | titlecase }}<i class="fa-duotone fa-house"></i
+        ></a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center" *ngSwitchCase="'contact'">
+      <li class="nav-item">
+        <a class="nav-link text-white">Welcome {{ userName | titlecase }}</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center" *ngSwitchCase="'my-profile'">
+      <li class="nav-item">
+        <a class="nav-link text-white">Welcome {{ userName | titlecase }}</a>
+      </li>
+    </ul>
+    <ul class="nav justify-content-center" *ngSwitchCase="'services'">
+      <li class="nav-item">
+        <a class="nav-link text-white">Welcome {{ userName | titlecase }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

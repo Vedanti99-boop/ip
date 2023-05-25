@@ -1,0 +1,17 @@
+.nav-link {
+  cursor: pointer;
+  font-size: larger;
+}
+
+.nav-size {
+  padding: 1vh;
+}
+
+.left-side {
+  margin-right: auto;
+}
+
+.imgsize {
+  height: 1px;
+  width: 1px;
+}

@@ -1,0 +1,127 @@
+.container {
+  /* border: 1px solid black; */
+  margin-top: 10%;
+  margin-left: 4%;
+  height: 50%;
+  position: absolute;
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+}
+
+.section-1 {
+  /* border: 2px solid black; */
+  padding-top: 30%;
+  padding-bottom: 30%;
+  padding-left: 5%;
+  padding-right: 40%;
+}
+
+.row-mar {
+  margin-top: 5%;
+}
+.icon-deco-1 {
+  color: rgba(251, 234, 53, 0.759);
+  margin-left: 60%;
+}
+.icon-deco-2 {
+  color: rgba(20, 220, 60, 0.264);
+  margin-left: 60%;
+}
+.icon-deco-3 {
+  color: rgba(160, 20, 220, 0.44);
+  margin-left: 60%;
+}
+.icon-deco-4 {
+  color: rgba(255, 8, 78, 0.495);
+  margin-left: 60%;
+}
+.icon-deco-5 {
+  color: rgba(24, 8, 255, 0.525);
+  margin-left: 60%;
+}
+.icon-deco-6 {
+  color: rgba(40, 9, 31, 0.489);
+  margin-left: 60%;
+}
+.icon-deco-7 {
+  color: rgba(251, 234, 53, 0.759);
+  margin-left: 60%;
+}
+.icon-deco-8 {
+  color: rgba(20, 220, 60, 0.264);
+  margin-left: 60%;
+}
+.icon-deco-9 {
+  color: rgba(160, 20, 220, 0.44);
+  margin-left: 60%;
+}
+.icon-deco-10 {
+  color: rgba(255, 8, 78, 0.495);
+  margin-left: 60%;
+}
+.icon-deco-11 {
+  color: rgba(24, 8, 255, 0.525);
+  margin-left: 60%;
+}
+.icon-deco-12 {
+  color: rgba(40, 9, 31, 0.489);
+  margin-left: 60%;
+}
+.icon-deco-13 {
+  color: rgba(251, 234, 53, 0.759);
+  margin-left: 60%;
+}
+.icon-deco-14 {
+  color: rgba(20, 213, 220, 0.833);
+  margin-left: 60%;
+}
+.icon-deco-15 {
+  color: rgba(255, 8, 8, 0.7);
+  margin-left: 60%;
+}
+.icon-deco-16 {
+  color: rgba(210, 8, 255, 0.495);
+  margin-left: 60%;
+}
+
+.back-btn {
+  background-color: transparent;
+  border: none;
+}
+
+.span-letters {
+  font-size: 80%;
+  font-weight: 600;
+  margin-left: 15%;
+}
+
+/* .input-mar {
+  margin-left: 80%;
+  border: none;
+  border-bottom: 1px solid black; */
+input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: rgba(0, 0, 0, 0.311);
+  margin-left: 87%;
+  margin-top: -5%;
+  /* padding-left: 2%; */
+}
+
+input:focus {
+  border-color: black;
+}
+
+input:hover {
+  border-color: black;
+}
+
+input::before i {
+  margin-right: 10%;
+}
+.bi-search {
+  margin-left: 88%;
+  /* position: absolute; */
+}

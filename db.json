@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "name": "naruto",
+      "email": "n@gmail.com",
+      "password": "n111",
+      "id": 1
+    },
+    {
+      "name": "luffy",
+      "email": "l@gmail.com",
+      "password": "l111",
+      "id": 2
+    },
+    {
+      "name": "takemitchy",
+      "email": "t@gmail.com",
+      "password": "t111",
+      "id": 3
+    },
+    {
+      "name": "zoro",
+      "email": "z@gmail.com",
+      "password": "z111",
+      "id": 4
+    }
+  ]
+}

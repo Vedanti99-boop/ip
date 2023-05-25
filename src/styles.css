@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+.errorP {
+  color: red;
+  margin-left: 14%;
+}
+
+.bg-lightl {
+  background: #e7f2f9;
+  color: black;
+}
+.bg-ldark {
+  background: #394867;
+  color: white;
+}
+
+.bg-darkd {
+  background: #212a3e;
+  color: white;
+}
+
+.bg-lightd {
+  background: #9ba4b5;
+  color: black;
+}

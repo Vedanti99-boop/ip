@@ -1,0 +1,42 @@
+.side-navbar {
+  height: 100%;
+  /* width: 100%; */
+  position: fixed;
+}
+
+.deco-a {
+  text-decoration: none;
+  color: #9ba4b5;
+  font-size: 180%;
+}
+
+.deco-ac {
+  text-decoration: none;
+  color: #9ba4b5;
+  font-size: 175%;
+}
+
+.deco-a:focus {
+  color: white;
+}
+
+.deco-a:hover {
+  color: white;
+}
+
+/* .absolute {
+  height: 100%;
+  position: absolute;
+} */
+
+.bord {
+  /* border: 2px solid black; */
+  margin-top: 70%;
+  /* height: 100%; */
+  /* position: absolute; */
+}
+
+.home-text {
+  font-size: 13px;
+  color: white;
+}

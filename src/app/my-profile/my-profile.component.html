@@ -1,0 +1,40 @@
+<!-- <div class="container mt-5">
+  <h2>{{ userName }}</h2>
+  <h2>{{ userEmail }}</h2>
+</div> -->
+
+<div class="row">
+  <div class="col-1">
+    <div class="section-1">
+      <app-side-navbar></app-side-navbar>
+    </div>
+  </div>
+
+  <div class="col-11">
+    <div class="section-2">
+      <div class="row">
+        <div class="col mt-5">
+          <div>
+            <div class="card" style="width: 18rem">
+              <img
+                src=" ../../assets/images/Matsuno.Chifuyu.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  {{ userName | titlecase }}
+                </h5>
+                <p class="card-text text-center">
+                  {{ userEmail }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <br />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

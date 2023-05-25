@@ -1,0 +1,23 @@
+.side-navbar {
+  height: 100%;
+  /* width: 100%; */
+  position: absolute;
+}
+
+.deco-a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  /* border-bottom: 2px solid white; */
+}
+
+.mar {
+  margin-top: 8%;
+  margin-right: 10%;
+}
+.container {
+  border: 1px solid black;
+  height: 100%;
+  position: absolute;
+  margin-left: 5%;
+}
